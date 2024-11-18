@@ -1,24 +1,5 @@
-# README
+# Flickr Feed App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple photo widget that fetches and displays photos from your Flickr feed (or someone else’s).
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is part of the 'Flickr API' project in The Odin Project’s Ruby on Rails Curriculum. Find it at https://www.theodinproject.com/lessons/ruby-on-rails-flickr-api
