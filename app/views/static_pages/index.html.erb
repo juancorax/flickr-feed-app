@@ -1,0 +1,17 @@
+<h1>Flickr Feed App</h1>
+
+<%= form_with url: root_path, method: :get do |form| %>
+  <%= form.label :flickr_user_id, "Flickr User ID:" %>
+  <%= form.text_field :flickr_user_id, value: params[:flickr_user_id] %>
+
+  <%= form.submit "Search" %>
+<% end %>
+
+<br>
+
+<% if @photos.present? %>
+  <% @photos.each do |photo| %>
+    <%= image_tag "https://live.staticflickr.com/#{photo.server}/#{photo.id}_#{photo.secret}_m.jpg",
+    alt: photo.title %>
+  <% end %>
+<% end %>
